@@ -1,13 +1,19 @@
-import lp1 from './images/lp1.jpeg';
-import lp2 from './images/lp2.jpeg';
-import lp3 from './images/lp3.jpeg';
+import lp1 from './images/lp1.png';
+import lp2 from './images/lp2.png';
+import lp3 from './images/lp3.png';
 
 function App() {
   return (
     <div className="App">
-      <img src={lp1} alt="Live In Aroma p1"/>
-      <img src={lp2} alt="Live In Aroma p2"/>
-      <img src={lp3} alt="Live In Aroma p3"/>
+      <div>
+        <img src={lp1} alt="Live In Aroma p1" />
+      </div>
+      <div>
+        <img src={lp2} alt="Live In Aroma p2" />
+      </div>
+      <div>
+        <img src={lp3} alt="Live In Aroma p3" />
+      </div>
     </div>
   );
 }
