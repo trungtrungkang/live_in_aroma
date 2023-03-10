@@ -2,8 +2,6 @@ import lp1 from './images/lp1.jpeg';
 import lp2 from './images/lp2.jpeg';
 import lp3 from './images/lp3.jpeg';
 
-import './App.css';
-
 function App() {
   return (
     <div className="App">
