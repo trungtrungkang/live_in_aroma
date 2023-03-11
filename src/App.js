@@ -18,6 +18,7 @@ function App() {
         </div>
         <div className='hotlines_booking_container'>
             <div className='hotlines_booking_title'>ĐỊA CHỈ ĐĂNG KÝ / BOOKING:</div>
+            <div className='hotlines'>Địa chỉ quán: Toà nhà Golden West, số 2 Lê Văn Thiêm, Thanh Xuân, HN</div>
             <div className='hotlines'>Hotlines: 0944422361 / 0398689831</div>
             <div className='fanpage'>
               <span>Fanpage: </span>
