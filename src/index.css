@@ -14,6 +14,23 @@ body {
   justify-content: center;
 }
 
+.hotlines_booking_container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  font-weight: bold; 
+  gap: 8px; 
+  padding: 15px;
+  font-size: 1.5em;
+  color: white;
+}
+
+.hotlines_booking_title {
+  color: #ffdf58;
+  font-size: 2em;
+}
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
@@ -22,5 +39,15 @@ code {
 @media (max-width: 800px) {
   img {
     width: 100%;
+  }
+
+  .hotlines_booking_container{
+    font-weight: normal;
+    font-size: 1em;
+    padding-left: 15px;
+  }
+
+  .hotlines_booking_title{
+    font-size: 1em;
   }
 }
