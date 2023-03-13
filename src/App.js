@@ -1,6 +1,6 @@
-import lp1 from './images/lp1_1.png';
-import lp2 from './images/lp2.png';
-import lp3 from './images/lp3.png';
+import lp1 from './images/lp1_1.webp';
+import lp2 from './images/lp2.webp';
+import lp3 from './images/lp3.webp';
 import qrcodeImage from './images/qrcode_registration_form.png';
 
 function App() {
